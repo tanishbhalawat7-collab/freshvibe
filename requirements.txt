@@ -1,0 +1,14 @@
+# Fresh Vibe backend / ESP32-CAM bridge  (Python 3.10+)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0
+httpx>=0.27
+python-multipart>=0.0.9
+python-dotenv>=1.0
+pillow>=10.0
+numpy>=1.26
+opencv-python-headless>=4.9
+zxing-cpp>=2.2
+pytesseract>=0.3.10
+# PostgreSQL (production) - uncomment if DATABASE_URL points to Postgres
+# psycopg[binary]>=3.1

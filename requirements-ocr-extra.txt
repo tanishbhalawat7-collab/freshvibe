@@ -1,0 +1,3 @@
+# Optional stronger OCR engines (large downloads, CPU is fine). Pick ONE and set OCR_ENGINE in .env.
+easyocr>=1.7          # OCR_ENGINE=easyocr
+# paddleocr>=2.7 paddlepaddle>=2.6   # OCR_ENGINE=paddleocr
